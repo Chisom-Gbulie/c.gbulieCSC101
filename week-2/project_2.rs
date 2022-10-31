@@ -7,7 +7,7 @@ fn main() {
     let m4 = 3;
     let m5 = 1;
 
-    let v1 = 450_00;
+    let v1 = 450_000;
     let v2 = 1_500_000;
     let v3 = 750_000;
     let v4 = 2_850_000;
@@ -23,5 +23,5 @@ fn main() {
     let s = t + m+ h + d + a;
     println!("Sum of sales record is {}",s);
     let b = s / 5;
-    println!("Average of slaes record is {}",b);
+    println!("Average of sales record is {}",b);
 }
