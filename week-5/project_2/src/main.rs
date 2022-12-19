@@ -11,7 +11,7 @@ fn main ()
     io::stdin().read_line(&mut input1).expect("Not a valid string");
     let age:i32 = input1.trim().parse().expect("Not a valid age");
 
-    println!("Enter your level of experience: ");
+    println!("Enter your level of experience (with 0 indicating no experience): ");
     io::stdin().read_line(&mut input2).expect("Not a valid string");
     let experience:i32 = input2.trim().parse().expect("Not a valid level");
 
