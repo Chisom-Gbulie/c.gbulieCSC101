@@ -1,4 +1,4 @@
-//Rust program to find the annual incentuves of employees based on age and experience
+//Rust program to find the annual incentives of employees based on age and experience
 
 use std::io;
 
